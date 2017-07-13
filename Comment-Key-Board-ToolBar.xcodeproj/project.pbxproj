@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0D41A61F17554700001CF1 /* 色号表.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0D41A51F17554700001CF1 /* 色号表.png */; };
+		2E381C6E1F173F3600370FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381C6D1F173F3600370FCF /* main.m */; };
+		2E381C711F173F3600370FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381C701F173F3600370FCF /* AppDelegate.m */; };
+		2E381C791F173F3600370FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E381C781F173F3600370FCF /* Assets.xcassets */; };
+		2E381C7C1F173F3600370FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E381C7A1F173F3600370FCF /* LaunchScreen.storyboard */; };
+		2E381C871F173F3600370FCF /* Comment_Key_Board_ToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381C861F173F3600370FCF /* Comment_Key_Board_ToolBarTests.m */; };
+		2E381C921F173F3600370FCF /* Comment_Key_Board_ToolBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381C911F173F3600370FCF /* Comment_Key_Board_ToolBarUITests.m */; };
+		2E381CA71F17400400370FCF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381CA41F17400400370FCF /* MainViewController.m */; };
+		2E381CAA1F17403700370FCF /* CommentTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381CA91F17403700370FCF /* CommentTextView.m */; };
+		2E381CAE1F1741E200370FCF /* CommentKeyBoardToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381CAD1F1741E200370FCF /* CommentKeyBoardToolBar.m */; };
+		2E381CB11F1742BB00370FCF /* UIViewController+KeyBoardObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381CB01F1742BB00370FCF /* UIViewController+KeyBoardObserver.m */; };
+		2E381CB41F17432900370FCF /* UIView+CommentViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E381CB31F17432900370FCF /* UIView+CommentViewFrame.m */; };
+		D1E71037661F13BA5F320A61 /* libPods-Comment-Key-Board-ToolBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1488AE9160F9ED68EBDBCDF /* libPods-Comment-Key-Board-ToolBar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E381C831F173F3600370FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E381C611F173F3600370FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E381C681F173F3600370FCF;
+			remoteInfo = "Comment-Key-Board-ToolBar";
+		};
+		2E381C8E1F173F3600370FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E381C611F173F3600370FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E381C681F173F3600370FCF;
+			remoteInfo = "Comment-Key-Board-ToolBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0D41A51F17554700001CF1 /* 色号表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "色号表.png"; sourceTree = "<group>"; };
+		2E381C691F173F3600370FCF /* Comment-Key-Board-ToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comment-Key-Board-ToolBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E381C6D1F173F3600370FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E381C6F1F173F3600370FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		2E381C701F173F3600370FCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		2E381C781F173F3600370FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		2E381C7B1F173F3600370FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E381C7D1F173F3600370FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		2E381C821F173F3600370FCF /* Comment-Key-Board-ToolBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comment-Key-Board-ToolBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E381C861F173F3600370FCF /* Comment_Key_Board_ToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment_Key_Board_ToolBarTests.m; sourceTree = "<group>"; };
+		2E381C881F173F3600370FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E381C8D1F173F3600370FCF /* Comment-Key-Board-ToolBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comment-Key-Board-ToolBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E381C911F173F3600370FCF /* Comment_Key_Board_ToolBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Comment_Key_Board_ToolBarUITests.m; sourceTree = "<group>"; };
+		2E381C931F173F3600370FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E381CA31F17400400370FCF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2E381CA41F17400400370FCF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2E381CA81F17403700370FCF /* CommentTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTextView.h; sourceTree = "<group>"; };
+		2E381CA91F17403700370FCF /* CommentTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTextView.m; sourceTree = "<group>"; };
+		2E381CAB1F1740AF00370FCF /* Comment.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.pch; sourceTree = "<group>"; };
+		2E381CAC1F1741E200370FCF /* CommentKeyBoardToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentKeyBoardToolBar.h; sourceTree = "<group>"; };
+		2E381CAD1F1741E200370FCF /* CommentKeyBoardToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentKeyBoardToolBar.m; sourceTree = "<group>"; };
+		2E381CAF1F1742BB00370FCF /* UIViewController+KeyBoardObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyBoardObserver.h"; sourceTree = "<group>"; };
+		2E381CB01F1742BB00370FCF /* UIViewController+KeyBoardObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyBoardObserver.m"; sourceTree = "<group>"; };
+		2E381CB21F17432900370FCF /* UIView+CommentViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CommentViewFrame.h"; sourceTree = "<group>"; };
+		2E381CB31F17432900370FCF /* UIView+CommentViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommentViewFrame.m"; sourceTree = "<group>"; };
+		5952597E66835BB8832B17CD /* Pods-Comment-Key-Board-ToolBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comment-Key-Board-ToolBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Comment-Key-Board-ToolBar/Pods-Comment-Key-Board-ToolBar.release.xcconfig"; sourceTree = "<group>"; };
+		80D1FF107F4641A8DA97F953 /* Pods-Comment-Key-Board-ToolBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Comment-Key-Board-ToolBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Comment-Key-Board-ToolBar/Pods-Comment-Key-Board-ToolBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A1488AE9160F9ED68EBDBCDF /* libPods-Comment-Key-Board-ToolBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Comment-Key-Board-ToolBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E381C661F173F3600370FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E71037661F13BA5F320A61 /* libPods-Comment-Key-Board-ToolBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C7F1F173F3600370FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C8A1F173F3600370FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA27E7C8FAE4C883934599F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1488AE9160F9ED68EBDBCDF /* libPods-Comment-Key-Board-ToolBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E381C601F173F3600370FCF = {
+			isa = PBXGroup;
+			children = (
+				2E381C6B1F173F3600370FCF /* Comment-Key-Board-ToolBar */,
+				2E381C851F173F3600370FCF /* Comment-Key-Board-ToolBarTests */,
+				2E381C901F173F3600370FCF /* Comment-Key-Board-ToolBarUITests */,
+				2E381C6A1F173F3600370FCF /* Products */,
+				DF5C5FB775C9CD01A73ED98F /* Pods */,
+				0DA27E7C8FAE4C883934599F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E381C6A1F173F3600370FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E381C691F173F3600370FCF /* Comment-Key-Board-ToolBar.app */,
+				2E381C821F173F3600370FCF /* Comment-Key-Board-ToolBarTests.xctest */,
+				2E381C8D1F173F3600370FCF /* Comment-Key-Board-ToolBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E381C6B1F173F3600370FCF /* Comment-Key-Board-ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				2E381CA51F17400400370FCF /* Other */,
+				2E381CA21F17400400370FCF /* Controller */,
+				2E381CA61F17400400370FCF /* View */,
+				2E381C6C1F173F3600370FCF /* Supporting Files */,
+			);
+			path = "Comment-Key-Board-ToolBar";
+			sourceTree = "<group>";
+		};
+		2E381C6C1F173F3600370FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E381C6D1F173F3600370FCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E381C851F173F3600370FCF /* Comment-Key-Board-ToolBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E381C861F173F3600370FCF /* Comment_Key_Board_ToolBarTests.m */,
+				2E381C881F173F3600370FCF /* Info.plist */,
+			);
+			path = "Comment-Key-Board-ToolBarTests";
+			sourceTree = "<group>";
+		};
+		2E381C901F173F3600370FCF /* Comment-Key-Board-ToolBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E381C911F173F3600370FCF /* Comment_Key_Board_ToolBarUITests.m */,
+				2E381C931F173F3600370FCF /* Info.plist */,
+			);
+			path = "Comment-Key-Board-ToolBarUITests";
+			sourceTree = "<group>";
+		};
+		2E381CA21F17400400370FCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E381CA31F17400400370FCF /* MainViewController.h */,
+				2E381CA41F17400400370FCF /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E381CA51F17400400370FCF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D41A51F17554700001CF1 /* 色号表.png */,
+				2E381CAB1F1740AF00370FCF /* Comment.pch */,
+				2E381C6F1F173F3600370FCF /* AppDelegate.h */,
+				2E381C701F173F3600370FCF /* AppDelegate.m */,
+				2E381C781F173F3600370FCF /* Assets.xcassets */,
+				2E381C7A1F173F3600370FCF /* LaunchScreen.storyboard */,
+				2E381C7D1F173F3600370FCF /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2E381CA61F17400400370FCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E381CA81F17403700370FCF /* CommentTextView.h */,
+				2E381CA91F17403700370FCF /* CommentTextView.m */,
+				2E381CAC1F1741E200370FCF /* CommentKeyBoardToolBar.h */,
+				2E381CAD1F1741E200370FCF /* CommentKeyBoardToolBar.m */,
+				2E381CAF1F1742BB00370FCF /* UIViewController+KeyBoardObserver.h */,
+				2E381CB01F1742BB00370FCF /* UIViewController+KeyBoardObserver.m */,
+				2E381CB21F17432900370FCF /* UIView+CommentViewFrame.h */,
+				2E381CB31F17432900370FCF /* UIView+CommentViewFrame.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF5C5FB775C9CD01A73ED98F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80D1FF107F4641A8DA97F953 /* Pods-Comment-Key-Board-ToolBar.debug.xcconfig */,
+				5952597E66835BB8832B17CD /* Pods-Comment-Key-Board-ToolBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E381C681F173F3600370FCF /* Comment-Key-Board-ToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E381C961F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBar" */;
+			buildPhases = (
+				C21B908651E03B6FF4AC8931 /* [CP] Check Pods Manifest.lock */,
+				2E381C651F173F3600370FCF /* Sources */,
+				2E381C661F173F3600370FCF /* Frameworks */,
+				2E381C671F173F3600370FCF /* Resources */,
+				1BBBF3E1DA3814AA5523C112 /* [CP] Embed Pods Frameworks */,
+				30AABCBD1E3292BF575ED16D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comment-Key-Board-ToolBar";
+			productName = "Comment-Key-Board-ToolBar";
+			productReference = 2E381C691F173F3600370FCF /* Comment-Key-Board-ToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E381C811F173F3600370FCF /* Comment-Key-Board-ToolBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E381C991F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBarTests" */;
+			buildPhases = (
+				2E381C7E1F173F3600370FCF /* Sources */,
+				2E381C7F1F173F3600370FCF /* Frameworks */,
+				2E381C801F173F3600370FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E381C841F173F3600370FCF /* PBXTargetDependency */,
+			);
+			name = "Comment-Key-Board-ToolBarTests";
+			productName = "Comment-Key-Board-ToolBarTests";
+			productReference = 2E381C821F173F3600370FCF /* Comment-Key-Board-ToolBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E381C8C1F173F3600370FCF /* Comment-Key-Board-ToolBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E381C9C1F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBarUITests" */;
+			buildPhases = (
+				2E381C891F173F3600370FCF /* Sources */,
+				2E381C8A1F173F3600370FCF /* Frameworks */,
+				2E381C8B1F173F3600370FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E381C8F1F173F3600370FCF /* PBXTargetDependency */,
+			);
+			name = "Comment-Key-Board-ToolBarUITests";
+			productName = "Comment-Key-Board-ToolBarUITests";
+			productReference = 2E381C8D1F173F3600370FCF /* Comment-Key-Board-ToolBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E381C611F173F3600370FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = View;
+				TargetAttributes = {
+					2E381C681F173F3600370FCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2E381C811F173F3600370FCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E381C681F173F3600370FCF;
+					};
+					2E381C8C1F173F3600370FCF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E381C681F173F3600370FCF;
+					};
+				};
+			};
+			buildConfigurationList = 2E381C641F173F3600370FCF /* Build configuration list for PBXProject "Comment-Key-Board-ToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E381C601F173F3600370FCF;
+			productRefGroup = 2E381C6A1F173F3600370FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E381C681F173F3600370FCF /* Comment-Key-Board-ToolBar */,
+				2E381C811F173F3600370FCF /* Comment-Key-Board-ToolBarTests */,
+				2E381C8C1F173F3600370FCF /* Comment-Key-Board-ToolBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E381C671F173F3600370FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0D41A61F17554700001CF1 /* 色号表.png in Resources */,
+				2E381C7C1F173F3600370FCF /* LaunchScreen.storyboard in Resources */,
+				2E381C791F173F3600370FCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C801F173F3600370FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C8B1F173F3600370FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBBF3E1DA3814AA5523C112 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Comment-Key-Board-ToolBar/Pods-Comment-Key-Board-ToolBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30AABCBD1E3292BF575ED16D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Comment-Key-Board-ToolBar/Pods-Comment-Key-Board-ToolBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C21B908651E03B6FF4AC8931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E381C651F173F3600370FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E381C711F173F3600370FCF /* AppDelegate.m in Sources */,
+				2E381CB11F1742BB00370FCF /* UIViewController+KeyBoardObserver.m in Sources */,
+				2E381CA71F17400400370FCF /* MainViewController.m in Sources */,
+				2E381C6E1F173F3600370FCF /* main.m in Sources */,
+				2E381CAE1F1741E200370FCF /* CommentKeyBoardToolBar.m in Sources */,
+				2E381CAA1F17403700370FCF /* CommentTextView.m in Sources */,
+				2E381CB41F17432900370FCF /* UIView+CommentViewFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C7E1F173F3600370FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E381C871F173F3600370FCF /* Comment_Key_Board_ToolBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E381C891F173F3600370FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E381C921F173F3600370FCF /* Comment_Key_Board_ToolBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E381C841F173F3600370FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E381C681F173F3600370FCF /* Comment-Key-Board-ToolBar */;
+			targetProxy = 2E381C831F173F3600370FCF /* PBXContainerItemProxy */;
+		};
+		2E381C8F1F173F3600370FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E381C681F173F3600370FCF /* Comment-Key-Board-ToolBar */;
+			targetProxy = 2E381C8E1F173F3600370FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E381C7A1F173F3600370FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E381C7B1F173F3600370FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E381C941F173F3600370FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E381C951F173F3600370FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E381C971F173F3600370FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D1FF107F4641A8DA97F953 /* Pods-Comment-Key-Board-ToolBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comment-Key-Board-ToolBar/Other/Comment.pch";
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E381C981F173F3600370FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5952597E66835BB8832B17CD /* Pods-Comment-Key-Board-ToolBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comment-Key-Board-ToolBar/Other/Comment.pch";
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E381C9A1F173F3600370FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comment-Key-Board-ToolBar.app/Comment-Key-Board-ToolBar";
+			};
+			name = Debug;
+		};
+		2E381C9B1F173F3600370FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comment-Key-Board-ToolBar.app/Comment-Key-Board-ToolBar";
+			};
+			name = Release;
+		};
+		2E381C9D1F173F3600370FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Comment-Key-Board-ToolBar";
+			};
+			name = Debug;
+		};
+		2E381C9E1F173F3600370FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Comment-Key-Board-ToolBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Comment-Key-Board-ToolBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Comment-Key-Board-ToolBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E381C641F173F3600370FCF /* Build configuration list for PBXProject "Comment-Key-Board-ToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E381C941F173F3600370FCF /* Debug */,
+				2E381C951F173F3600370FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E381C961F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E381C971F173F3600370FCF /* Debug */,
+				2E381C981F173F3600370FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E381C991F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E381C9A1F173F3600370FCF /* Debug */,
+				2E381C9B1F173F3600370FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E381C9C1F173F3600370FCF /* Build configuration list for PBXNativeTarget "Comment-Key-Board-ToolBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E381C9D1F173F3600370FCF /* Debug */,
+				2E381C9E1F173F3600370FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E381C611F173F3600370FCF /* Project object */;
+}
