@@ -24,6 +24,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = C0;
+    self.navigationItem.title = @"主页";
+    
     
     _commentBtn = [[UIButton alloc]init];
     [self.view addSubview:_commentBtn];
@@ -33,7 +35,11 @@
     }];
     [_commentBtn setTitle:@"发表评论" forState:UIControlStateNormal];
     [_commentBtn setTitleColor:C2 forState:UIControlStateNormal];
-    
+    _commentBtn.backgroundColor = C7;
+    _commentBtn.layer.masksToBounds = YES;
+    _commentBtn.layer.cornerRadius = 8;
+    _commentBtn.layer.borderWidth = 1;
+    _commentBtn.layer.backgroundColor = C1.CGColor;
     [_commentBtn addTarget:self action:@selector(commentBtnClick) forControlEvents:UIControlEventTouchUpInside];
 
 }
