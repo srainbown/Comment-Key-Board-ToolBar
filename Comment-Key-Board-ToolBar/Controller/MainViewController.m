@@ -23,9 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = C0;
+    self.view.backgroundColor = C2;
     self.navigationItem.title = @"主页";
-    
     
     _commentBtn = [[UIButton alloc]init];
     [self.view addSubview:_commentBtn];
@@ -47,7 +46,7 @@
 -(void)commentBtnClick{
     
     K_WeakSelf;
-    
+    [SVProgressHUD dismiss];
     _commentBtn.hidden = YES;
     
     //输入框背景
@@ -72,7 +71,6 @@
 -(void)issueBtnClick:(NSString *)commentStr{
     
     NSLog(@"%@",commentStr);
-
     [SVProgressHUD showSuccessWithStatus:@"评论成功"];
     [_keyboardBgView removeFromSuperview];
     _commentBtn.hidden = NO;
